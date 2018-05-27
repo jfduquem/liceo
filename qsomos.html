@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="logo2.png" > 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="transition.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<title>
+		¿Quienes somos?
+	</title>
+
+	<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(51,51,51);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.formReg {
+
+width: 80%;
+	}
+
+.input-group-addon {
+	width: 10%
+}
+
+option {
+	text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+	</style>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+		<div class="col-lg-2"></div>
+		<div class="col-lg-9">
+
+				<a href="index.html">Inicio</a>
+				<a href="#" class="active">Nuestro Liceo</a>
+				<a href="#">Circulares</a>
+				<a href="#">Orientación</a>
+				<a href="#">Galería Fotográfica</a>
+				<a href="#">Galería Videos</a>
+				<a href="contactenos.html">Contáctenos</a> 
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div id="div">
+			<div align="center">
+				<h1 id="tittle">
+					<i class="fa fa-puzzle-piece"></i> ¿Quienes somos?
+				</h1>
+				<br>
+				<br>
+				<p>
+					"Somos una comunidad educativa de calidad, con un ambiente único de aprendizaje, alto nivel de exigencia en el ámbito académico y disciplinario. En nuestro Liceo privilegiamos la formación en valores y la solución pacífica de conflictos, teniendo como base fundamental el respeto y la tolerancia dentro de las relaciones interpersonales que se establecen dentro de los miembros"
+				</p>
+				<hr>
+				<br>
+				<h1 id="tittle2">
+				    <i class="fa fa-paper-plane"></i> Horizonte Institucional 
+				</h1>
+				<p style="text-align: center; font-size: 20px;">
+					"Educación integral para una Colombia mejor"
+				</p>
+			</div>
+		</div>
+		<div>
+			<br>
+			<br>
+			<h1 id="here" class="subtittle">
+				<i class="fa fa-arrow-alt-circle-right"></i> Visión
+			</h1>
+			<p class="block pp" id="transition">
+				Para el año 2022 el LICEO MANUEL ELKIN PATARROYO ofrecerá un servicio de calidad en los niveles de Educación Preescolar, Básica y Media académica con énfasis en el idioma extranjero Inglés, impactando a la comunidad del Barrio Getsemaní de la localidad de Bosa y sus alrededores de la ciudad capital de Bogotá.
+			</p>
+			<hr>
+			<h1 id="here2" class="subtittle">
+				<i class="fa fa-arrow-alt-circle-right"></i> Misión
+			</h1>
+			<p class="block aa" id="transition">
+				La misión del Liceo Manuel Elkin Patarroyo está orientada a alcanzar una educación de formación integral, por medio del modelo pedagógico investigación acción, involucrando el trabajo por competencias, para desarrollar todas las dimensiones del ser humano, profundizando en la comprensión de lectura y los procesos de pensamiento lógico, promoviendo acciones de convivencia pacífica con cultura de solución de conflictos, que le permiten al estudiante fortalecer sus habilidades individuales y así trascender en la sociedad.
+			</p>
+			<hr>
+			<h1 id="here3" class="subtittle">
+				<i class="fa fa-arrow-alt-circle-right"></i> Filosofía
+			</h1>
+			<p class="block bb" id="transition">
+				La filosofía del LICEO MANUEL ELKIN PATARROYO tiene como punto de partida el pensamiento del doctor MANUEL ELKIN PATARROYO, quien con sus hechos busca llevar a la práctica el valor de la alteridad, superación, ahínco y perseverancia con su incansable vida de científico pretende conservar el mundo haciéndolo sostenible, sirviendo a los demás como lo demostró al encontrar la cura para varias enfermedades y no aceptar ningún lucro. Se concibe el ser humano como una persona amable, responsable, asertiva, prudente, pacifica, con proyección profesional, que respete los valores humanos, que descubra nuevos conocimientos que le permitan solucionar problemas y satisfacer necesidades individuales y sociales. Como entidad educativa se pretende contribuir a mejorar la calidad de vida, ofrecer un servicio de calidad educativa para impactar y transcender en la comunidad. Se educa para ayudar a los individuos que asumen un papel ante la sociedad y frente a la vida; estimulándolo para que se auto construya. Importa que el educando sea hombre de verdad, dueño de sí mismo, un ser que actúe conforme a unos valores éticos, morales, políticos y económicos, consciente de su responsabilidad y de su destino.
+				<br>
+				<br>
+				<span id="here4" class="span">
+					<i class="fa fa-caret-right"></i> Ciencia
+				</span>
+				<br>
+				<span class="block ss" id="span2">
+					Virtud que lleva a encontrar y a edificar conocimientos útiles para mejorar la calidad de vida del estudiante en su entorno familiar, social, cultural y ambiental.
+				</span>
+				<br>
+				<span id="here5" class="span">
+					<i class="fa fa-caret-right"></i> Educación	
+				</span>
+				<br>
+				<span class="block dd" id="span2">
+					Proceso social, mediante el cual la persona se integra dinámicamente, se socializa y se prepara para crear y recrear pautas, valores y experiencias compartidas por quienes conviven en una determinada sociedad. Este proceso permite a sus miembros conocer y producir cultura, contribuyendo al desarrollo físico e intelectual de cada persona, mediante su acción creadora.
+				</span>
+				<br>
+				<span id="here6" class="span">
+					<i class="fa fa-caret-right"></i> Patrimonio	
+				</span>
+				<br>
+				<span class="block ff" id="span2">
+					Saberse con identidad nacional es sentirse involucrado en un pasado y a un proceso histórico que no termina y en el cual cada colombiano tiene el compromiso de aportar positivamente para el futuro. Sentirse parte activa y comprometida de una nación, con orgullo, optimismo, empeño y mucha ilusión.
+					<br>
+					<br>
+					<span>
+						El Liceo centrará el proceso educativo en el estudiante, en su realidad, en sus intereses, necesidades, para ello resume las capacidades y potencialidades en:
+						<br>
+						<br>
+						<span id="here21" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial social			
+						</span>
+						<br>
+						<span class="block r" id="span2">
+							Hacia la solidaridad humana, actitud de cambio hacia una sociedad más justa y humana, respecto a opiniones ajenas y convivir en paz.
+						</span>
+						<br>
+						<span id="here22" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial intelectual			
+						</span>
+						<br>
+						<span class="block t" id="span2">
+							A través de la actividad de aprendizaje, el alumno logra pensar, comprender, relacionar, analizar, abstraer, sintetizar, aplicar, crear y tener juicio crítico.
+						</span>
+						<br>
+						<span id="here23" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial volitivo			
+						</span>
+						<br>
+						<span class="block y" id="span2">
+							Fortalecimiento de la responsabilidad, espontaneidad, autonomía y creatividad.
+						</span>
+						<br>
+						<span id="here24" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial afectivo			
+						</span>
+						<br>
+						<span class="block u" id="span2">
+							El acontecer emocional, sentimientos y pasiones.
+						</span>
+						<br>
+						<span id="here25" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial laboral			
+						</span>
+						<br>
+						<span class="block i" id="span2">
+							Deseo de superación intelectual, para mejorar en un futuro próximo sus ingresos económicos.
+						</span>
+						<br>
+						<span id="here26" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial ético			
+						</span>
+						<br>
+						<span class="block o" id="span2">
+							Valores técnicos como hábitos de trabajo, estudio, puntualidad y organización.
+							<br>
+							* Valores individuales como libertad, autonomía y valor de la vida.
+							<br>
+							* Valores educativos, como creatividad, civismo y diálogo.
+							<br>
+							* Valores sociales, sinceridad, honestidad, responsabilidad, etc.
+							<br>
+						</span>
+						<br>
+						<span id="here27" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial ecológico		
+						</span>
+						<br>
+						<span class="block p" id="span2">
+							Hábitos de racionalización, respeto a la vida y aprovechamiento de los recursos humanos.
+						</span>
+						<br>
+						<span id="here28" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial espiritual			
+						</span>
+						<br>
+						<span class="block a" id="span2">
+							El colegio debe responder con una cosmovisión cristiana del mundo y su relación con Dios.
+						</span>
+						<br>
+						<span id="here29" class="span3">
+							<i class="fa fa-caret-right"></i> Potencial artístico			
+						</span>
+						<br>
+						<span class="block s" id="span2">
+							El arte es un medio que ofrece posibilidades para desarrollar al hombre íntegro a través de la expresión plástica, musical, corporal, literaria y dramática.
+						</span>
+						<br>
+					</span>
+				</span>
+				<br>
+			</p>
+			<hr>
+			<br>
+			<div align="center">
+				<h1 id="tittle2">
+				    <i class="fa fa-globe"></i> Principios y valores institucionales 
+				</h1>			
+			</div>
+			<h1 id="here7" class="subtittle">
+				<i class="fa fa-arrow-alt-circle-right"></i> Principios
+			</h1>
+			<p class="block gg" id="transition">
+				
+				<br>
+				<span id="here8" class="span">
+					<i class="fa fa-caret-right"></i> Convivencía pacífica
+				</span>
+				<br>
+				<span class="block hh" id="span2">
+					En el Liceo se educa para una convivencia pacífica, tanto al interior como al exterior de la comunidad educativa. Esto supone el desarrollo de disposiciones para la empatía, la tolerancia y el diálogo, según la convicción cristiana de que es posible la unidad en la diversidad en la convivencia humana. Esta convivencia se aplica a las realidades de la educación, la familia y la sociedad.
+				</span>
+				<br>
+				<span id="here9" class="span">
+					<i class="fa fa-caret-right"></i> Excelencía personal	
+				</span>
+				<br>
+				<span class="block jj" id="span2">
+					Requiere el conocimiento y el perfeccionamiento de uno mismo, ser exigente consigo mismo, esforzarse por alcanzar los más nobles ideales, ser sincero, estar en actitud de mejoramiento continuo.
+				</span>
+				<br>
+				<span id="here10" class="span">
+					<i class="fa fa-caret-right"></i> Comunicación acertiva	
+				</span>
+				<br>
+				<span class="block kk" id="span2">
+					Capacidad de expresión, relación y escucha. Supone sentido de la libertad, apertura y respeto. Haciendo uso del dialogo real y permanente para la concertación.
+				</span>
+				<br>
+				<span id="here11" class="span">
+					<i class="fa fa-caret-right"></i> Sentido de pertenencia
+				</span>
+				<br>
+				<span class="block ll" id="span2">
+					Hacia el colegio, sus materiales, instalaciones, imagen y todos los miembros que lo conforman, es importante que todo lo que dice, piensa y hace, refleje la identidad del colegio.
+				</span>
+				<br>
+				<span id="here12" class="span">
+					<i class="fa fa-caret-right"></i> Calidad y liderazgo
+				</span>
+				<br>
+				<span class="block zz" id="span2">
+					Para la formación de líderes como agentes de cambio que permitan un desarrollo permanente del municipio, de la región y del país.
+				</span>
+				<br>
+				<span id="here13" class="span">
+					<i class="fa fa-caret-right"></i> Trabajo en equipo
+				</span>
+				<br>
+				<span class="block xx" id="span2">
+					la unión organizada de los miembros de la comunidad educativa cooperando para lograr la ejecución efectiva de los proyectos institucionales.
+				</span>
+				<br>
+			</p>
+			<hr>
+			<h1 id="here14" class="subtittle">
+				<i class="fa fa-arrow-alt-circle-right"></i> Valores
+			</h1>
+			<p class="block cc" id="transition">
+				
+				Los valores acogidos por la comunidad del LICEO MANUEL ELKIN PATARROYO son: responsabilidad, respeto, paz, honestidad, pro actividad, tolerancia y participación, cada uno de ellos se define así:
+				<br>
+				<br>
+				<span id="here15" class="span">
+					<i class="fa fa-caret-right"></i> Responsabilidad
+				</span>
+				<br>
+				<span class="block vv" id="span2">
+					la capacidad para asumir y respaldar con seriedad y entereza todos los actos de la existencia. La responsabilidad se manifiesta en el ejercicio continuo y positivo de los compromisos individuales, sociales, cívicos, escolares, familiares y laborales, contraídos, y la valoración permanente de los resultados que de ellos puedan derivarse. Dentro de este valor es indispensable la corresponsabilidad.
+				</span>
+				<br>
+				<span id="here16" class="span">
+					<i class="fa fa-caret-right"></i> Respeto
+				</span>
+				<br>
+				<span class="block nn" id="span2">
+					Implica el aprecio por la dignidad humana, el acatamiento a la norma. Comprender que la cortesía, el buen trato, los buenos modales, la amabilidad, la gratitud, la tolerancia y la puntualidad, son formas de mostrar respeto por los demás. Expresar las ideas propias y respetar la de los demás.
+				</span>
+				<br>
+				<span id="here17" class="span">
+					<i class="fa fa-caret-right"></i> Paz
+				</span>
+				<br>
+				<span class="block mm" id="span2">
+					Estado de concordia, de acuerdo entre los miembros de un grupo. La cultura de la paz exige que se identifiquen y asuman valores humanos como la vida, la igualdad, la fraternidad, la libertad, el respeto, la tolerancia, el diálogo, la reconciliación, la solidaridad, la justicia, la ternura.
+				</span>
+				<br>
+				<span id="here18" class="span">
+					<i class="fa fa-caret-right"></i> Honestidad
+				</span>
+				<br>
+				<span class="block q" id="span2">
+					La persona honesta vive lo que predica y expresa sus pensamiento sin irrespetar a nadie, dice oportunamente la verdad, es justa al asignar a cada cual lo que corresponde. Del honesto se puede decir: “He aquí un hombre en quien no hay doblez”. Cita bíblica.
+				</span>
+				<br>
+				<span id="here19" class="span">
+					<i class="fa fa-caret-right"></i> Pro actividad
+				</span>
+				<br>
+				<span class="block w" id="span2">
+					Que las conductas no sean consecuencia de las circunstancias, los sentimientos y las personas, sino fruto de la planificación. Cumplir con los compromisos adquiridos, asumir las consecuencias de las decisiones, crear nuevas y mejores formas para efectuar el trabajo; hacer bien desde el principio y sentirse responsable de la Institución.
+				</span>
+				<br>
+				<span id="here20" class="span">
+					<i class="fa fa-caret-right"></i> Tolerancía y participación
+				</span>
+				<br>
+				<span class="block e" id="span2">
+					Para construir una sociedad más justa y equilibrada, de respeto por el prójimo, consideraciones por los intereses ajenos, aprovechamiento al máximo de las facultades intelectuales; promoción de la vida armónica y productiva en comunidad; y la lucha constante por una sociedad más equitativa.
+				</span>
+				<br>
+			</p>
+			<hr>
+			<br>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>a
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+	<script type="text/javascript">
+			function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}	
+			$('#here').click(function(){
+				$('.pp').toggleClass("block")
+			})
+			$('#here2').click(function(){
+				$('.aa').toggleClass("block")
+			})
+			$('#here3').click(function(){
+				$('.bb').toggleClass("block")
+			})
+			$('#here4').click(function(){
+				$('.ss').toggleClass("block")
+			})
+			$('#here5').click(function(){
+				$('.dd').toggleClass("block")
+			})
+			$('#here6').click(function(){
+				$('.ff').toggleClass("block")
+			})
+			$('#here7').click(function(){
+				$('.gg').toggleClass("block")
+			})
+			$('#here8').click(function(){
+				$('.hh').toggleClass("block")
+			})
+			$('#here9').click(function(){
+				$('.jj').toggleClass("block")
+			})
+			$('#here10').click(function(){
+				$('.kk').toggleClass("block")
+			})
+			$('#here11').click(function(){
+				$('.ll').toggleClass("block")
+			})
+			$('#here12').click(function(){
+				$('.zz').toggleClass("block")
+			})
+			$('#here13').click(function(){
+				$('.xx').toggleClass("block")
+			})
+			$('#here14').click(function(){
+				$('.cc').toggleClass("block")
+			})
+			$('#here15').click(function(){
+				$('.vv').toggleClass("block")
+			})
+			$('#here16').click(function(){
+				$('.nn').toggleClass("block")
+			})
+			$('#here17').click(function(){
+				$('.mm').toggleClass("block")
+			})
+			$('#here18').click(function(){
+				$('.q').toggleClass("block")
+			})
+			$('#here19').click(function(){
+				$('.w').toggleClass("block")
+			})
+			$('#here20').click(function(){
+				$('.e').toggleClass("block")
+			})
+			$('#here21').click(function(){
+				$('.r').toggleClass("block")
+			})
+			$('#here22').click(function(){
+				$('.t').toggleClass("block")
+			})
+			$('#here23').click(function(){
+				$('.y').toggleClass("block")
+			})
+			$('#here24').click(function(){
+				$('.u').toggleClass("block")
+			})
+			$('#here25').click(function(){
+				$('.i').toggleClass("block")
+			})
+			$('#here26').click(function(){
+				$('.o').toggleClass("block")
+			})
+			$('#here27').click(function(){
+				$('.p').toggleClass("block")
+			})
+			$('#here28').click(function(){
+				$('.a').toggleClass("block")
+			})
+			$('#here29').click(function(){
+				$('.s').toggleClass("block")
+			})
+
+			
+	</script>
+</html>
