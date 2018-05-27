@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lic</title>
+	<title>Contactenos</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,8 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-image: url(bgcontactenos.jpg);
+  background-size: cover;
 }
 
 .topnav {
@@ -72,7 +74,7 @@ body {
 
 .formReg {
 
-width: 80%;
+width: 100%;
 	}
 
 .input-group-addon {
@@ -107,22 +109,27 @@ li a:hover {
     background-color: #111;
 }
 
-	</style>
+.inp-w {
+	width: 100px;
+	text-align: left;
 
+}
+
+	</style>
 </head>
-<body style="background-image: url(colegio2.jpg);">
+<body>
 
 	<div class="topnav" id="myTopnav">
 		<div class="col-lg-2"></div>
 		<div class="col-lg-9">
 
-				<a href="#" class="active">Inicio</a>
+				<a href="index.html">Inicio</a>
 				<a href="#">Nuestro Liceo</a>
 				<a href="#">Circulares</a>
 				<a href="#">Orientación</a>
 				<a href="#">Galería Fotográfica</a>
 				<a href="#">Galería Videos</a>
-				<a href="contactenos.html">Contáctenos</a> 
+				<a href="#" class="active">Contáctenos</a> 
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 				</a>
@@ -130,52 +137,45 @@ li a:hover {
 		</div>
 		<div class="col-lg-1"></div>
 	</div>
+	
+	<div class="col-lg-12" align="center"><h1 style="color: white">Déjenos su Mensaje <i class="	fa fa-mail-forward"></i></h1>
+	
+	<div style="margin-top: 40px">
+	<div class="col-lg-4"></div>
+	<div class="col-lg-4" style="border-radius: 10px; padding: 15px; background-color: white">
+	<form id="formulario">
+				
+				<div class="input-group formReg">
+					<span class="input-group-addon"><i class="fa fa-address-card"></i></span>
+					<input id="name" type="text" class="form-control" name="name" placeholder="Nombres" autocomplete="off" required>
+				</div><br>
+				
+				<div class="input-group formReg">
+					<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+					<input id="Teléfono" type="number" class="form-control" name="Teléfono" placeholder="Teléfono" autocomplete="off" required>
+				</div><br>
 
-	<div style="background-image: url(colegio2.jpg); background-size: cover;" class="col-lg-12">	
+				<div class="input-group formReg">
+					<span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+					<input id="email" type="email" class="form-control" name="email" placeholder="Email" autocomplete="off" required>
+				</div><br>
+				<label for="email">Mensaje:</label><br>
+				<textarea style="border-radius: 10px; width: 100%" rows="5" required="required">
+					
+				</textarea><br><br>
+				<div class="modal-foote formRegr" style="border-color: #337AB7">
+					<button class="btn btn-success">Enviar</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal" id="closemdl">Cancelar</button>
+					<input type="reset" name="" style="display: none;" id="reset">
+				</div><br>
+				
+			</form>
+  </div>
+  <div class="col-lg-4"></div>
+  </div>
 
-		<div class="col-lg-12" style="height: 230px" align="center">
 
-			<h1 style="color: white"><i class="fa fa-graduation-cap"></i> <b>LICEO MANUEL ELKIN PATARROYO</b> <i class="fa fa-graduation-cap"></i></h1>
-			<h3 style="color: white">"Soy Patarroyano y Marco la Diferencia"</h3>
-			<hr>
 
-			<div class="col-lg-12"  align="center">
-			<img src="logo.png" style="width: 5%">
-		</div>
-			
-		</div>
-		
-	</div>
-		
-	<div class="col-lg-4 " style="background-color: #333333; color: white; height: 355px">
-
-	<p style="text-align: center; font-size: 16px; padding: 3px">
-
-	<i class="	fa fa-book"></i> Nivel superior en el ICFES <br><br>	
-
-	<i class="fa fa-book"></i> Resolución oficial N° 3877 del 20 de septiembre de 2007<br><br>
-
-	<i class="fa fa-book"></i> Resolución de ampliación N° 07-0271 del 4 de octubre de 2010<br><br>
-
-	<i class="fa fa-map"></i> Kra 81A N° 81ª – 82ª – 18 SUR<br><br>
-
-	<i class="fa fa-phone-square"></i> Getsemaní Bosa. Tel: 4492956 Bogotá D.C.<br><br>
-
-	<i class="fa fa-envelope"></i> elviristo@yahoo.com<br><br>
-
-	<i class="fa fa-home"></i> www.liceomanuelelkin.edu.co</p></div>
-
-	<div class="col-lg-8" id="googleMap" style="height:355px;"></div>	
-
-<!-- 	<div class="col-lg-4" style="height: 355px; background-color: #4CAF50; font-size: 30px; font-family: 'Times New Roman', Times, serif; background-image: url(backgroundicfes.jpg); background-size: cover;" align="center" >
-		<div class="col-lg-4" style=" width: 100%;"><p style="margin-top: 20px; font-size: 47px">NIVEL SUPERIOR</p></div>
-		
-		<div class="col-lg-4" style="width: 100%; ">
-		 <p style="margin-top: 10px; font-size: 50px">EN EL</p> 
-		</div>
-		<! <div class="col-lg-1"><i class="fa fa-pencil"></i></div> -->
-<!-- 		<div class="col-lg-4" style="width: 100%; font-size: 60px"><p style="margin-top: 20px;"><i class="fa fa-line-chart"></i> ICFES <i class="fa fa-line-chart"></i></p></div>
-	</div> --> 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -183,10 +183,8 @@ li a:hover {
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-
-
 	<script type="text/javascript">
-			function myFunction() {
+		function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -194,17 +192,7 @@ li a:hover {
         x.className = "topnav";
     }
 	}
-
-	function myMap() {
-	var mapProp= {
-	center:new google.maps.LatLng(4.6133679,-74.2062682,21),
-	zoom:18,
-	};
-	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-	}
 	</script>
-
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqYyxGc8BpmjeEZlt0YAll9ILOfPxWdF0&callback=myMap"></script>
 
 </body>
 </html>
