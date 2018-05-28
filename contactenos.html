@@ -106,7 +106,7 @@ h1 {
 					<input id="email" type="email" class="form-control" name="email" placeholder="Email" autocomplete="off" required>
 				</div><br>
 				<label for="email">Mensaje:</label><br>
-				<textarea style="border-radius: 10px; width: 100%" rows="5" required="required">
+				<textarea style="border-radius: 10px; width: 100%" rows="5" id="texta" required="required">
 					
 				</textarea><br><br>
 				<div class="modal-foote formRegr" style="border-color: #337AB7">
@@ -120,9 +120,6 @@ h1 {
   <div class="col-lg-4"></div>
   </div>
 
-
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
@@ -130,6 +127,32 @@ h1 {
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<script type="text/javascript">
+
+		$(document).ready(function(){
+			$('#texta').val('');
+		})
+
+		$('#texta').focus(function(){
+		if($.trim($(this).val()) == ""){
+			$(this).val('');
+		}		
+	})
+
+		$('#formulario').submit(function(e){
+		e.preventDefault();
+		enviarmsg()
+	})
+		function enviarmsg(){
+
+			if ($('#texta').val() == "") {
+				swal('ok','pk', 'error')
+			}
+			else{
+				swal('listo','hemos recibido su mensaje, nos comunicaremos lo mas pronto posible.', 'success')
+
+			}
+					}
+
 		function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -138,7 +161,11 @@ h1 {
         x.className = "topnav";
     }
 	}
+
+	
 	</script>
 
 </body>
 </html>
+
+
