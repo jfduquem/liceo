@@ -1,85 +1,42 @@
-#here, #here2, #here3, #here4, #here5, #here6, #here7, #here8, #here9, #here10, #here11, #here12, #here13, #here14, #here15, #here16, #here17, #here18, #here19, #here20
-, #here21, #here22, #here23, #here24, #here25, #here26, #here27, #here28, #here29 {
-	cursor: pointer;
-}
-
-.block {
-	display: none;
-}
-
-75% {
-  font-size: 300%;
-  margin-top: 25%;
-  width: 150%;
-}
-#transition {
-  animation-duration: 0.2s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-top: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+div {
+  font-size: 15px;
 }
 p {
-	font-size: 17px;
+	font-size: 20px;
 	text-align: justify;
 }
-.span {
-	font-size: 25px;
-	color: #333333;
-	margin-left: 5%;
-}
-.span3 {
-	font-size: 20px;
-	color: #333333;
-	margin-left: 5%;
-}
-#span2 {
-	margin-left: 8%;
-	font-size: 17px;
-}
 #tittle {
-	font-size: 60px;
+	font-size: 50px;
 }
 .subtittle {
-	font-size: 30px;
+	font-size: 28px;
+}
+.subtittle2{
+  font-size: 20px;
+}
+.subtittle3{
+  font-size: 17px;
 }
 #tittle2 {
-	font-size: 40px;
+	font-size: 30px;
 }
 @media only screen and (max-width: 600px) {
     #tittle {
         font-size: 30px;
     }
-}
-@media only screen and (max-width: 600px) {
     #tittle2 {
         font-size: 25px;
     }
-}
-@media only screen and (max-width: 600px) {
     .subtittle {
-        font-size: 18px;
+        font-size: 20px;
     }
-}
-@media only screen and (max-width: 600px) {
-    p {
+    .subtittle2 {
+      font-size: 18px;
+    }
+    .subtittle3{
+      font-size: 16px;
+    }
+    div {
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 600px) {
-    .span3 {
-        font-size: 16px;
-    }
-    @media only screen and (max-width: 600px) {
-    .span {
-        font-size: 16px;
-    }

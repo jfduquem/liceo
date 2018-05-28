@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lic</title>
+	<title>Liceo Manuel Elkin Patarroyo</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-	<link rel="icon" type="image/x-icon" href="logo.png" >
+	<link rel="icon" type="image/x-icon" href="imagenes/logo.png" >
 
 	<style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -46,6 +46,38 @@ body {
 .topnav .icon {
   display: none;
 }
+#divMain
+	img {
+  		width: 5%;
+  		height: auto;
+  }
+@media only screen and (max-width: 768px) {
+  #divMain{
+  	margin-top: 0px !important
+  }
+
+  #divMain	h1 {
+  		font-size: 1.5em;
+  		margin-top: 0px !important;
+  		padding: 10px
+  }
+
+  #divMain	h3 {
+  		font-size: 1.2em;
+  }
+
+
+  #divMain
+  	img {
+  		width: 20% !important;
+  		height: auto;
+  }
+  #secondDiv{
+  	padding: 5px;
+  }
+
+}
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -61,6 +93,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+
 
   }
   .topnav.responsive a {
@@ -110,7 +143,7 @@ li a:hover {
 	</style>
 
 </head>
-<body style="background-image: url(colegio2.jpg);">
+<body style="">
 
 	<div class="topnav" id="myTopnav">
 		<div class="col-lg-2"></div>
@@ -131,7 +164,7 @@ li a:hover {
 		<div class="col-lg-1"></div>
 	</div>
 
-	<div style="background-image: url(colegio2.jpg); background-size: cover;" class="col-lg-12">	
+	<div style="background-image: url(imagenes/colegio2.jpg); background-size: cover;" class="col-lg-12" id="divMain">	
 
 		<div class="col-lg-12" style="height: 230px" align="center">
 
@@ -140,18 +173,18 @@ li a:hover {
 			<hr>
 
 			<div class="col-lg-12"  align="center">
-			<img src="logo.png" style="width: 5%">
+			<img src="imagenes/logo.png" style="width: 5%">
 		</div>
 			
 		</div>
 		
 	</div>
 		
-	<div class="col-lg-4 " style="background-color: #333333; color: white; height: 355px">
+	<div class="col-lg-4 " style="background-color: #333333; color: white; height: 355px" id="secondDiv">
 
 	<p style="text-align: center; font-size: 16px; padding: 3px">
 
-	<i class="	fa fa-book"></i> Nivel superior en el ICFES <br><br>	
+	<i class="fa fa-book"></i> Nivel superior en el ICFES <br><br>	
 
 	<i class="fa fa-book"></i> Resolución oficial N° 3877 del 20 de septiembre de 2007<br><br>
 
