@@ -11,138 +11,78 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 	<link rel="icon" type="image/x-icon" href="imagenes/logo.png" >
 
-	<style type="text/css">
+<style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background-image: url(imagenes/bgcontactenos.jpg);
-  background-size: cover;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url(imagenes/bgcontactenos.jpg);
+	background-size: cover;
 }
-
-.topnav {
-  overflow: hidden;
-  background-color: rgb(51,51,51);
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
 @media only screen and (max-width: 768px) {
-	h1 {
-		font-size: 1.8em;
-	}
+h1 {
+	font-size: 1.8em;
 }
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
 }
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
 .formReg {
-
-width: 100%;
-	}
-
+	width: 100%;
+}
 .input-group-addon {
 	width: 10%
 }
-
-option {
-	text-align: left;
+.barraNav {
+	font-size: 16px;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.active {
+	background-color: #4CAF50;
 }
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding:0;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.inp-w {
-	width: 100px;
-	text-align: left;
-
-}
-
-	</style>
+</style>
 </head>
 <body>
 
-	<div class="topnav" id="myTopnav">
-		<div class="col-lg-2"></div>
-		<div class="col-lg-9">
-
-				<a href="index.html">Inicio</a>
-				<a href="qsomos.html">Nuestro Liceo</a>
-				<a href="#">Circulares</a>
-				<a href="#">Orientación</a>
-				<a href="#">Galería Fotográfica</a>
-				<a href="#">Galería Videos</a>
-				<a href="#" class="active">Contáctenos</a> 
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
-				</a>
-
-		</div>
-		<div class="col-lg-1"></div>
-	</div>
+<nav class="navbar navbar-inverse barraNav" style="margin-bottom: 0px; border: none;">
+  <div class="container-fluid" style="background-color: #333333">
+  	<div class="col-lg-12">
+  	<div class="col-lg-2 col-md-1 col-sm-0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color: white;">WebSiteName</a>
+    </div>
+    </div>
+    <div class="col-lg-8 col-md-10 col-sm-12">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      	<li><a href="index.html" style="color: white;">Inicio</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Nuestro Liceo<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="qsomos.html">Quiénes Somos</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Circulares<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">XXXXX</a></li>
+            
+          </ul>
+        </li>
+        
+        <li class="active" ><a href="contactenos.html" style="color: white; background-color: #4CAF50 !important;">Contáctenos</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-1 col-sm-0"></div>
+  </div>
+  </div>
+</nav>
 	
 	<div class="col-lg-12" align="center"><h1 style="color: white">Déjenos su Mensaje <i class="	fa fa-mail-forward"></i></h1>
 	
