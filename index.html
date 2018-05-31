@@ -10,12 +10,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 	<link rel="icon" type="image/x-icon" href="imagenes/logo.png" >
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #333333
 }
 img {
 	width: 5%;
@@ -42,8 +44,11 @@ img {
 		padding: 5px;
 	}
 		#secondDiv{
-		height: 370px !important;
+		height: 100% !important;
 	}
+		#texto{
+		margin-bottom: 10px !important;
+		}
 }
 .formReg {
 	width: 80%;
@@ -58,8 +63,11 @@ img {
 }
 .active {
 	background-color: #4CAF50;
-
 }
+li:hover {
+	background-color: #5F5F5F;
+}
+.mySlides {display:none;}
 </style>
 
 </head>
@@ -69,71 +77,68 @@ img {
   <div class="container-fluid" style="background-color: #333333">
    <div class="col-lg-12">
    	<div class="col-lg-2 col-md-1 col-sm-0">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#" style="color: white;">WebSiteName</a>
-    </div>
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="#" style="color: white;"><i class="fa fa-home"></i> Mi Liceo</a>
+	    </div>
     </div>
     <div class="col-lg-8 col-md-10 col-sm-12">
-    <div class="collapse navbar-collapse " id="myNavbar" style="">
-      <ul class="nav navbar-nav ">
-      	<li><a href="#" class="active" style="color: white;">Inicio</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Nuestro Liceo<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="qsomos.html" style="">Quiénes Somos</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Circulares<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">XXXXX</a></li>
-            
-          </ul>
-        </li>
-        
-        <li><a href="contactenos.html" style="color: white;">Contáctenos</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
-    </div>
+    	<div class="collapse navbar-collapse " id="myNavbar" style="">
+	      <ul class="nav navbar-nav ">
+	      	<li><a href="#" class="active" style="color: white;">Inicio</a></li>
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Nuestro Liceo<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="qsomos.html" style="">Quiénes Somos</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Circulares<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">XXXXX</a></li>
+	            
+	          </ul>
+	        </li>
+	        
+	        <li><a href="contactenos.html" style="color: white;">Contáctenos</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"></a></li>
+	        <li><a href="#"></a></li>
+	      </ul>
+    	</div>
     </div>
     <div class="col-lg-2 col-md-1 col-sm-0"></div>
    </div>
   </div>
 </nav>
 
-	<div style="background-image: url(imagenes/colegio2.jpg); background-size: cover; margin-top: 0px !important" class="col-lg-12" id="divMain">	
-
-		<div class="col-lg-12" style="height: 230px" align="center">
-
-			<h1 style="color: white;"><i class="fa fa-graduation-cap"></i> <b>LICEO MANUEL ELKIN PATARROYO</b> <i class="fa fa-graduation-cap"></i></h1>
-			<h3 style="color: white">"Soy Patarroyano y Marco la Diferencia"</h3>
-			<hr>
-
-			<div class="col-lg-12"  align="center">
+<div style="background-image: url(imagenes/colegio2.jpg); background-size: cover; margin-top: 0px !important" class="col-lg-12" id="divMain">	
+	<div class="col-lg-12" style="height: 230px" align="center">
+		<h1 style="color: white;"><i class="fa fa-graduation-cap"></i> <b>LICEO MANUEL ELKIN PATARROYO</b> <i class="fa fa-graduation-cap"></i></h1>
+		<h3 style="color: white">"Soy Patarroyano y Marco la Diferencia"</h3>
+		<hr>
+		<div class="col-lg-12"  align="center">
 			<img src="imagenes/logo.png" style="width: 5%">
-		</div>
-			
-		</div>
-		
+		</div>		
 	</div>
-		
-	<div class="col-lg-4 " style="background-color: #333333; color: white; height: 355px" id="secondDiv">
+</div>
 
-	<p style="text-align: center; font-size: 16px; padding: 3px" id="texto">
+
+  <div class="panel panel-default col-lg-4" style="background-color: #333333; color: white; height: 100%; padding: 0px !important; border-radius: 0px !important; border-color: #333333; margin-bottom: 0px !important" id="secondDiv"">
+    <div class="panel-heading" style="border-radius: 0px !important; background-color: #333333; border-color: #333333;color: white; font-size:16px" align="center">INFORMACIÓN <i class="fa fa-info-circle"></i></div>
+    <div class="panel-body" style="background-color: #5F5F5F; height: 100%; ">
+    <p style="text-align: justify; font-size: 14px; padding: 3px; margin: 0px;" id="texto">
 
 	<i class="fa fa-book"></i> Nivel superior en el ICFES <br><br>	
 
-	<i class="fa fa-book"></i> Resolución oficial N° 3877 del 20 de septiembre de 2007<br><br>
+	<i class="fa fa-legal"></i> Resolución oficial N° 3877 del 20 de septiembre de 2007<br><br>
 
-	<i class="fa fa-book"></i> Resolución de ampliación N° 07-0271 del 4 de octubre de 2010<br><br>
+	<i class="fa fa-legal"></i> Resolución de ampliación N° 07-0271 del 4 de octubre de 2010<br><br>
 
 	<i class="fa fa-map"></i> Kra 81A N° 81ª – 82ª – 18 SUR<br><br>
 
@@ -141,28 +146,23 @@ img {
 
 	<i class="fa fa-envelope"></i> elviristo@yahoo.com<br><br>
 
-	<i class="fa fa-home"></i> www.liceomanuelelkin.edu.co</p></div>
+	<i class="fa fa-home"></i> www.liceomanuelelkin.edu.co</p>
+	</div>
+  </div>
 
-	<div class="col-lg-8" id="googleMap" style="height:355px;"></div>	
+	<div class="col-lg-4" id="googleMap" style="height:375px;"></div>	
 
-<!-- 	<div class="col-lg-4" style="height: 355px; background-color: #4CAF50; font-size: 30px; font-family: 'Times New Roman', Times, serif; background-image: url(backgroundicfes.jpg); background-size: cover;" align="center" >
-		<div class="col-lg-4" style=" width: 100%;"><p style="margin-top: 20px; font-size: 47px">NIVEL SUPERIOR</p></div>
-		
-		<div class="col-lg-4" style="width: 100%; ">
-		 <p style="margin-top: 10px; font-size: 50px">EN EL</p> 
-		</div>
-		<! <div class="col-lg-1"><i class="fa fa-pencil"></i></div> -->
-<!-- 		<div class="col-lg-4" style="width: 100%; font-size: 60px"><p style="margin-top: 20px;"><i class="fa fa-line-chart"></i> ICFES <i class="fa fa-line-chart"></i></p></div>
-	</div> --> 
+<div class="w3-content w3-section col-lg-4" style="background-color: #444444">
+  <img class="mySlides" src="imagenes/bganimation.jpg" style="width:100%; height:342px">
+  <img class="mySlides" src="imagenes/bganimation.jpg" style="width:100%; height:342px">
+  <img class="mySlides" src="imagenes/bganimation.jpg" style="width:100%; height:342px">
+</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script type="text/javascript">
 	function myMap() {
 	var mapProp= {
@@ -171,6 +171,20 @@ img {
 	};
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	}
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
 	</script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqYyxGc8BpmjeEZlt0YAll9ILOfPxWdF0&callback=myMap"></script>

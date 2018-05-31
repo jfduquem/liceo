@@ -1,27 +1,66 @@
-.div {
-  font-size: 15px;
+div {
+  font-size: 17px;
+  text-align: justify;
+}
+.margin {
+  margin-left: 10%;
+}
+.margin2 {
+  margin-left: 12%;
+}
+.margin3 {
+  margin-left: 10%;
 }
 p {
-	font-size: 20px;
-	text-align: justify;
+  font-size: 20px;
+  text-align: justify;
 }
 #tittle {
-	font-size: 50px;
+  font-size: 50px;
+  text-align: center;
 }
 .subtittle {
-	font-size: 28px;
+  font-size: 28px;
+  color: #333333;
+  cursor: pointer;
+}
+#subtittle {
+  font-size: 27px;
+  color: #1C2833;
+  cursor: pointer;
+  -webkit-transition:0.5s;
+  transition: 0.5s;
+}
+#subtittle:hover {
   color: #4CAF50;
 }
-.subtittle2{
+#subtittle2 {
   font-size: 20px;
+  color: #1C2833;
+  cursor: pointer;
+  -webkit-transition:0.5s;
+  transition: 0.5s;
+}
+#subtittle2:hover {
   color: #4CAF50;
 }
-.subtittle3{
-  font-size: 17px;
+#subtittle3{
+  font-size: 18px;
+  color: #1C2833;
+  cursor: pointer;
+  -webkit-transition:0.5s;
+  transition: 0.5s;
+}
+#subtittle3:hover {
   color: #4CAF50;
 }
 #tittle2 {
-	font-size: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.btn {
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 @media only screen and (max-width: 600px) {
     #tittle {
@@ -30,16 +69,28 @@ p {
     #tittle2 {
         font-size: 25px;
     }
-    .subtittle {
-        font-size: 20px;
+    #subtittle {
+        font-size: 21px;
     }
-    .subtittle2 {
-      font-size: 18px;
+    #subtittle2 {
+      font-size: 17px;
     }
-    .subtittle3{
+    #subtittle3{
       font-size: 16px;
     }
     div {
         font-size: 15px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .margin {
+      margin-left: 18px;
+    }
+    .margin2 {
+      margin-left: 30px;
+    }
+    .margin3 {
+      margin-left: 25px;
     }
 }
